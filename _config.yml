@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 生活是个圈
 subtitle:
 description:
 author: 生活是个圈
@@ -77,6 +77,12 @@ theme: next
 #git 地址
 deploy:
 	type: git
-	repository: https://github.com/864861699/bolg.git
+	repository: https://github.com/864861699/Blog.git
 	branch: master
   coding.net: git@git.coding.net:ezlippi/ezlippi.git,coding-pages
+
+  search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
